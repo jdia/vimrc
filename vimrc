@@ -11,17 +11,24 @@ set ruler
 syntax on
 
 " Whitespace stuff
-set nowrap
+set wrap
+set showbreak=↪
+set smartindent
+set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set list listchars=tab:\ \ ,trail:·
+"set list listchars=tab:\ \ ,trail:·
 
 " Searching
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+" Add/Remove tab indent by Tab, S-Tab
+vmap <Tab>  >gv
+vmap <S-Tab> <gv
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
