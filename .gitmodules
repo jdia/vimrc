@@ -15,4 +15,7 @@
 	url = git://github.com/scrooloose/nerdtree.git
 [submodule "bundle/vimerl"]
 	path = bundle/vimerl
-	url = https://github.com/oscarh/vimerl.git
+    url = https://github.com/oscarh/vimerl.git
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab.git
