@@ -8,15 +8,18 @@ endif
 
 set number
 set ruler
+set sc
+set visualbell
+set exrc
 syntax on
 
 " Whitespace stuff
 set wrap
 set showbreak=↪
-set smartindent
+"set smartindent
 set autoindent
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 "set list listchars=tab:\ \ ,trail:·
 
@@ -29,6 +32,9 @@ set smartcase
 " Add/Remove tab indent by Tab, S-Tab
 vmap <Tab>  >gv
 vmap <S-Tab> <gv
+
+" Start/Stop visual mode by Shift
+set km=startsel,stopsel
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -57,3 +63,8 @@ map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
 
 " Clojure
 let vimclojure#HighlightBuiltins = 1
+
+" JavaImp
+let g:JavaImpPaths="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar"
+let g:JavaImpDataDir="~/.vim/JavaImp"
+
