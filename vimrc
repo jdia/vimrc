@@ -18,8 +18,8 @@ set wrap
 set showbreak=↪
 "set smartindent
 set autoindent
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 "set list listchars=tab:\ \ ,trail:·
 

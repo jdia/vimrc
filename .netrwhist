@@ -1,6 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/jdia/Development/java/ant_tutorial'
 let g:netrw_dirhist_2='/Users/jdia/Development/web/tutorial'
 let g:netrw_dirhist_3='/Users/jdia/Development/web/facebook_canvas_app/profile_to_animal/app/views/home'
 let g:netrw_dirhist_4='/Users/jdia/.vim/.git'
+let g:netrw_dirhist_5='/Users/jdia/.vim'
+let g:netrw_dirhist_6='/Users/jdia/Development/ultracaption/citysocial/server/citysocial-core/config'
