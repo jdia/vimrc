@@ -15,13 +15,17 @@ syntax on
 
 " Whitespace stuff
 set wrap
-set showbreak=↪
 "set smartindent
 set autoindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-"set list listchars=tab:\ \ ,trail:·
+set list
+set listchars=""
+set listchars=tab:\ \
+set listchars+=trail:.
+set listchars+=extends:>
+set listchars+=precedes:<
 
 " Searching
 set hlsearch
