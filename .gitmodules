@@ -43,3 +43,6 @@
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "/Users/royd/.vim/bundle/kotlin-vim"]
+	path = /Users/royd/.vim/bundle/kotlin-vim
+	url = https://github.com/udalov/kotlin-vim
